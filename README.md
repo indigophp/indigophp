@@ -11,5 +11,5 @@ IndigoPHP is a basic administration panel system based on [FuelPHP](http://fuelp
 
 ## Development Team
 
-* [TamásBarta](https://github.com/TamasBarta)
+* [Tamás Barta](https://github.com/TamasBarta)
 * [Márk Sági-Kazár](https://github.com/sagikazarmark)
