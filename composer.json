@@ -29,7 +29,8 @@
 		"fuelphp/foundation": "~2.0",
 		"indigophp/base": "dev-develop",
 		"indigophp/admin": "dev-develop",
-		"indigophp/theme-default": "dev-develop"
+		"indigophp/theme-default": "dev-develop",
+		"composer/installers": "dev-fix/framework-match as dev-master"
 	},
 	"minimum-stability": "dev"
 }
