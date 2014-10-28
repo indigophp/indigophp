@@ -1,5 +1,6 @@
 {
 	"name": "indigophp/indigophp",
+	"type": "project",
 	"description": "The IndigoPHP framework",
 	"keywords": ["framework", "indigophp", "fuelphp"],
 	"homepage": "http://indigophp.com",
