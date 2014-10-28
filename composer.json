@@ -1,19 +1,35 @@
 {
-	"name": "fuelphp/fuelphp",
-	"description": "The FuelPHP framework",
-	"keywords": ["framework"],
-	"homepage": "http://fuelphp.com",
+	"name": "indigophp/indigophp",
+	"description": "The IndigoPHP framework",
+	"keywords": ["framework", "indigophp", "fuelphp"],
+	"homepage": "http://indigophp.com",
 	"license": "MIT",
 	"authors": [
 		{
-			"name": "FuelPHP Development Team",
-			"email": "team@fuelphp.com"
+			"name": "Tamás Barta",
+			"email": "barta.tamas.d@gmail.com"
+		},
+		{
+			"name": "Márk Sági-Kazár",
+			"email": "mark.sagikazar@gmail.com"
+		}
+	],
+	"repositories": [
+		{
+			"type": "vcs",
+			"url": "https://github.com/fuelphp/auth.git"
+		},
+		{
+			"type": "vcs",
+			"url": "https://github.com/sagikazarmark/installers.git"
 		}
 	],
 	"require": {
 		"php": ">=5.4",
 		"fuelphp/foundation": "~2.0",
-		"fuelphp/demo-component": "~2.0"
+		"indigophp/base": "dev-develop",
+		"indigophp/admin": "dev-develop",
+		"indigophp/theme-default": "dev-develop"
 	},
 	"minimum-stability": "dev"
 }
