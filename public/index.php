@@ -37,22 +37,15 @@ define('VENDORPATH', realpath(__DIR__.'/../vendor/').DIRECTORY_SEPARATOR);
 require VENDORPATH.'autoload.php';
 
 /**
- * Forge the FuelPHP Demo application, and fetch it's main component
+ * Forge the IndigoPHP application, and fetch it's main component
  */
 $component = Fuel::forge(
-	'Demo Application',                                                 // name to idenfity this application
-	'Demo',                                                             // namespace that defines the main application component
-	isset($_SERVER['FUEL_ENV']) ? $_SERVER['FUEL_ENV'] : 'development'  // default environment for all components
+	'IndigoPHP Application',
+	'Indigo\Base',
+	isset($_SERVER['FUEL_ENV']) ? $_SERVER['FUEL_ENV'] : 'development'
 );
 
-/**
- * Using the main application component, we add a few test components manually
- * which are included in the demo applications components directory. Since the
- * are not composer installed, we need to specify the path to them. For composer
- * installed components, the namespace is enough to identify the component.
- */
-$component->newComponent('moda', 'Moda', true,  $component->getPath().DS.'components'.DS.'moda'.DS.'classes');
-$component->newComponent('modb', 'Modb', false, $component->getPath().DS.'components'.DS.'modb'.DS.'classes');
+$component->newComponent('admin', 'Indigo\Admin', true);
 
 /**
  * Get the demo application, fire the main request on it, and get the response
