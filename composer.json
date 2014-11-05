@@ -31,7 +31,7 @@
 		"indigophp/base": "dev-develop",
 		"indigophp/admin": "dev-develop",
 		"indigophp/theme-default": "dev-develop",
-		"composer/installers": "dev-fix/framework-match as dev-master"
+		"composer/installers": "dev-feature/theme as dev-master"
 	},
 	"minimum-stability": "dev"
 }
